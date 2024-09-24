@@ -10,10 +10,10 @@ require_relative 'lib/issue_templates/hooks/view_layouts_base_html_head_hook'
 
 Redmine::Plugin.register :issue_templates do
   name 'Issue Templates Plugin'
-  author 'Your Name'
+  author 'Cem Topkaya'
   description 'This plugin adds template buttons for Redmine issues'
   version '0.0.1'
-  url 'http://example.com/path/to/plugin'
-  author_url 'http://example.com/about'
+  url 'https://github.com/cemtopkaya/redmine-issue-template.git'
+  author_url 'http://www.cemtopkaya.com'
   requires_redmine :version_or_higher => '4.0'
 end
